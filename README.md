@@ -25,21 +25,21 @@ gclone_para_override = Leave it Blank
 ```
 4. After filling appropriate values save it.
 5. Install [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli#download-and-install)
-Login into your heroku account with command:
+   Login into your heroku account with command:
    ---heroku login
-Create a new heroku app:
+   Create a new heroku app:
    ---heroku create appname	
-Select This App in your Heroku-cli:
+   Select This App in your Heroku-cli:
    ---heroku git:remote -a appname
-Change Dyno Stack to a Docker Container:
+   Change Dyno Stack to a Docker Container:
    ---heroku stack:set container
-Add Private Credentials and Config Stuff:
+   Add Private Credentials and Config Stuff:
    ---git add * -f
-Commit new changes:
+   Commit new changes:
    ---git commit -m "Added Creds"
-Push Code to Heroku:
+   Push Code to Heroku:
    ---git push heroku master --force
-Restart Worker by these commands:
+   Restart Worker by these commands:
    ---heroku ps:scale worker=0
    ---heroku ps:scale worker=1
 
