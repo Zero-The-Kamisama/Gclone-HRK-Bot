@@ -1,0 +1,22 @@
+{
+	"name": "GClone-HRK-Bot",
+	"description": "Gclone Telegram Bot",
+	"repository": "https://github.com/Zero-The-Kamisama/Gclone-HRK-Bot",
+	"keywords": ["Gclone","TG"],
+	"env": {
+		"BOT_TOKEN": {
+			"description": "Get from Telegram Botfather"
+		},
+		"USER_ID": {
+			"description": "get from telegram get_id_bot. For More than 1 User Give IDs seperated by ','.The First Guy is the Admin"
+		},
+		"GRP_ID": {
+			"description": "Create a Super Group(s) and add ID Here (if More than 1 group Give IDs seperated by ','"
+		},
+		"GC_PARA_OVERRIDE": {
+			"description": "Leave this if u Dont Know",
+			"required": false
+		}
+	},
+    	"stack": "container"
+}
