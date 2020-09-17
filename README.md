@@ -27,7 +27,7 @@ gclone_para_override = Leave it Blank
 
 4. Click On Below Button For Deploying
 
- [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+   [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
   
 ## 📙 Deploy On VPS:-
 1. git clone https://github.com/Zero-The-Kamisama/Gclone-HRK-Bot
